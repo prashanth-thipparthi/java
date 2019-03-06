@@ -26,6 +26,28 @@ public class IsSubString {
         return 0;
     }
 
+    /*
+Computes temporary array to maintain size of suffix which is same as prefix
+ */
+    public static int[] computePatternSuffixArray(char[] pattern){
+        int lps[] = new int[pattern.length];
+        int index = 0;
+        for(int i=1;i<pattern.length;){
+            if(pattern[i] == pattern[index]){
+                lps[i] = index +1;
+                i++;
+                index++;
+            } else{
+                if(index != 0){
+                    index = lps[index-1];
+                }else{
+                    lps[i] = 0;
+                    i++;
+                }
+            }
+        }
+        return lps;
+    }
 
     public static int kmpStringMatching(char[] s1, char[] s2){
 
@@ -53,28 +75,6 @@ public class IsSubString {
 
     }
 
-    /*
-Computes temporary array to maintain size of suffix which is same as prefix
- */
-    public static int[] computePatternSuffixArray(char[] pattern){
-        int lps[] = new int[pattern.length];
-        int index = 0;
-        for(int i=1;i<pattern.length;){
-            if(pattern[i] == pattern[index]){
-                lps[i] = index +1;
-                i++;
-                index++;
-            } else{
-                if(index != 0){
-                    index = lps[index-1];
-                }else{
-                    lps[i] = 0;
-                    i++;
-                }
-            }
-        }
-        return lps;
-    }
 
     public static void main(String args[]){
         String str1 = "abcabyu";
