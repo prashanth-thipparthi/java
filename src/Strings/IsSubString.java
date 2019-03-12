@@ -49,15 +49,15 @@ Computes temporary array to maintain size of suffix which is same as prefix
         return lps;
     }
 
-    public static int kmpStringMatching(char[] s1, char[] s2){
+    public static int kmpStringMatching(char[] pattern, char[] text){
 
-        int len1 = s1.length;
-        int len2 = s2.length;
-        int lps[] = computePatternSuffixArray(s1);
-        int i= 0,j= 0,k= 0;
+        int len1 = pattern.length;
+        int len2 = text.length;
+        int lps[] = computePatternSuffixArray(pattern);
+        int i= 0,j= 0;
 
-        while(j < len2){
-            if(s1[i] == s2[j]){
+        while(i < text.length && j < pattern.length){
+            if(text[i] == pattern[j]){
                 i++;
                 j++;
             }else{
@@ -67,8 +67,8 @@ Computes temporary array to maintain size of suffix which is same as prefix
                     i++;
                 }
             }
-            if(i==len1){
-                return j-len1;
+            if(j==len1){
+                return i-len1;
             }
         }
         return 0;
@@ -77,7 +77,7 @@ Computes temporary array to maintain size of suffix which is same as prefix
 
 
     public static void main(String args[]){
-        String str1 = "abcabyu";
+        String str1 = "abcabwy";
         String str2 = "abxabcabcaby";
        // int ret = isSubString(str1,str2);
         int ret = kmpStringMatching(str1.toCharArray(), str2.toCharArray());
