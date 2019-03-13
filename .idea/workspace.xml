@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9081344d-e494-44d3-a00f-fe3a42d630c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AmazonLeetCode/FirstUniqueCharacterInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MergingKSortedLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/CompareVersionStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/BinaryTree1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/InteresectionOfLinkedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/IsSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/IsSubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,44 +16,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/TwoSum.java">
+        <entry file="file://$PROJECT_DIR$/src/Strings/CompareVersionStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strings/CompareVersionStrings.java">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/MergingKSortedLinkedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="2261">
+              <caret line="136" column="43" selection-start-line="127" selection-start-column="8" selection-end-line="136" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/InteresectionOfLinkedLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/MergingKSortedLinkedLists.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
-              <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#117#118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/ArraysAddition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="277">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -165,12 +151,14 @@
         <option value="$PROJECT_DIR$/src/Array/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/Strings/CompareVersionStrings.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/MergingKSortedLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/InteresectionOfLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="177" />
-    <option name="y" value="-22" />
+    <option name="x" value="98" />
+    <option name="y" value="-21" />
     <option name="width" value="1358" />
     <option name="height" value="728" />
   </component>
@@ -220,12 +208,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552362520860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552442351093" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Array" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -247,8 +235,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MergingKSortedLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.MergingKSortedLinkedLists" />
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ProductOfArrayExceptSelf" />
       <module name="CodingAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Array" />
       <extension name="coverage">
@@ -263,7 +251,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergingKSortedLinkedLists" />
+        <item itemvalue="Application.ProductOfArrayExceptSelf" />
       </list>
     </recent_temporary>
   </component>
@@ -285,13 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551904436409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="code change">
+      <created>1552367898848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552367898848</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,8 +296,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1816694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30769232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1816694" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -446,6 +442,18 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Trees/BinaryTree.java</url>
           <line>31</line>
@@ -551,6 +559,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strings/CompareVersionStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/MergingKSortedLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="136" column="43" selection-start-line="127" selection-start-column="8" selection-end-line="136" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/BuySellStockProfit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -593,31 +625,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/InteresectionOfLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strings/CompareVersionStrings.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/ProductOfArrayExceptSelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/MergingKSortedLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="277">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
