@@ -101,6 +101,11 @@ class BT    {
         return node;
     }
 
+    public void BSTInsert(int data)
+    {
+        root = BSTInsert(root, data);
+    }
+
     public BTNode BSTInsert(BTNode head,int data){
         BTNode tempHead = head;
         BTNode newNode = new BTNode(data);
@@ -120,9 +125,9 @@ class BT    {
         }
 
         if(prev.data<=data){
-            prev.left = newNode;
-        }else{
             prev.right = newNode;
+        }else{
+            prev.left = newNode;
         }
         return tempHead;
     }
@@ -271,6 +276,45 @@ class BT    {
         }
         return result;
     }
+
+    public boolean isBST(){
+
+        //return isBST_MinMax(root,Integer.MIN_VALUE,Integer.MAX_VALUE);
+        return  isBST_prevNode(root,null,null);
+    }
+
+    public boolean isBST_MinMax(BTNode node,int min,int max){
+
+        if(node == null){
+            return true;
+        }
+
+//        if(node.data < min || node.data > max  ){
+//            return false;
+//        }
+
+        return (node.data >= min && node.data < max)
+                && isBST_MinMax(node.left,min,node.data) && isBST_MinMax(node.right,node.data,max);
+
+    }
+
+    public boolean isBST_prevNode(BTNode node,BTNode left, BTNode right){
+
+        if(node==null){
+            return true;
+        }
+
+        if(left!=null && node.data < left.data){
+            return false;
+        }
+
+        if(right!=null && node.data >= right.data){
+            return false;
+        }
+
+        return isBST_prevNode(node.left,left,node) && isBST_prevNode(node.right,node,right);
+    }
+
 }
 
 /* Class binaryTree */
@@ -292,14 +336,16 @@ public class BinaryTree {
             System.out.println("1. insert ");
             System.out.println("2. search");
             System.out.println("3. count nodes");
-            System.out.println("4. check empty");
+            System.out.println("4. Is BST?");
+            System.out.println("5. check empty");
 
             int choice = scan.nextInt();
 
             switch (choice) {
                 case 1 :
                     System.out.println("Enter integer element to insert");
-                    bt.insert( scan.nextInt() );
+                    //bt.insert( scan.nextInt() );
+                    bt.BSTInsert(scan.nextInt());
                     break;
                 case 2 :
                     System.out.println("Enter integer element to search");
@@ -309,6 +355,9 @@ public class BinaryTree {
                     System.out.println("Nodes = "+ bt.countNodes());
                     break;
                 case 4 :
+                    System.out.println("IsBST? = "+ bt.isBST());
+                    break;
+                case 5 :
                     System.out.println("Empty status = "+ bt.isEmpty());
                     break;
                 default :
