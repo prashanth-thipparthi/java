@@ -315,6 +315,50 @@ class BT    {
         return isBST_prevNode(node.left,left,node) && isBST_prevNode(node.right,node,right);
     }
 
+    /*
+    Root to leaf path sum equal to a given number
+    */
+
+    public boolean rootToLeafPathSum(int target){
+        int val=0;
+        return rootToLeafPathSumUtil(root,target,val);
+    }
+
+    public boolean rootToLeafPathSumUtil(BTNode node,int target,int val){
+        if(node==null)
+            return false;
+        val = val + node.data;
+
+        if((node.left==null) && (node.right == null)){
+            return (val == target);
+        }
+
+        return (rootToLeafPathSumUtil(node.left,target,val)
+                || rootToLeafPathSumUtil(node.right,target,val));
+
+
+    }
+
+    public void inOrderSuccessor(int n){
+        BTNode node = new BTNode(n);
+        BTNode successorNode = successor(root, node);
+        if(successorNode != null) {
+            System.out.println("Successor Node:" + successorNode.data);
+        }else{
+            System.out.println("No succesor node for given input");
+        }
+    }
+    public BTNode successor(BTNode root, BTNode p) {
+        if (root == null)
+            return null;
+
+        if (root.data <= p.data) {
+            return successor(root.right, p);
+        } else {
+            BTNode left = successor(root.left, p);
+            return (left != null) ? left : root;
+        }
+    }
 }
 
 /* Class binaryTree */
@@ -328,8 +372,6 @@ public class BinaryTree {
         System.out.println("Binary Tree Test\n");
         char ch;
 
-
-
         do  {
 
             System.out.println("\nBinary Tree Operations\n");
@@ -337,15 +379,25 @@ public class BinaryTree {
             System.out.println("2. search");
             System.out.println("3. count nodes");
             System.out.println("4. Is BST?");
-            System.out.println("5. check empty");
+            System.out.println("5. Root to leaf sum");
+            System.out.println("6. Successor Node");
+            System.out.println("7. check empty");
 
             int choice = scan.nextInt();
 
             switch (choice) {
                 case 1 :
-                    System.out.println("Enter integer element to insert");
-                    //bt.insert( scan.nextInt() );
-                    bt.BSTInsert(scan.nextInt());
+//                   System.out.println("Enter integer element to insert");
+//                    for
+//                    //bt.insert( scan.nextInt() );
+//                    bt.BSTInsert(scan.nextInt());
+                    System.out.println("Enter the number of elements to insert:");
+                    int n = scan.nextInt();
+                    int arr[] = new int[n];
+                    for(int i=0;i<n;i++){
+                        arr[i] = scan.nextInt();
+                        bt.BSTInsert(arr[i]);
+                    }
                     break;
                 case 2 :
                     System.out.println("Enter integer element to search");
@@ -357,7 +409,15 @@ public class BinaryTree {
                 case 4 :
                     System.out.println("IsBST? = "+ bt.isBST());
                     break;
-                case 5 :
+                case 5:
+                    System.out.println("Root to leaf sum = "+ bt.rootToLeafPathSum(15));
+                    break;
+                case 6:
+                    System.out.println("Enter the inorder successor:");
+                    bt.inOrderSuccessor(scan.nextInt());
+                    System.out.println();
+                    break;
+                case 7 :
                     System.out.println("Empty status = "+ bt.isEmpty());
                     break;
                 default :
