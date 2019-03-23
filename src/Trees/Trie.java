@@ -81,9 +81,34 @@ public class Trie {
         return current.isEnd;
     }
 
+    public boolean delete(String word,TrieNode current,int index){
+        if(index == word.length()){
+            if(!current.isEnd){
+                return false;
+            }
+
+            current.isEnd = false;
+            return current.children.size() == 0;
+        }
+        char ch = word.charAt(index);
+        TrieNode node = current.children.get(ch);
+        if(node==null){
+            return false;
+        }
+
+        boolean curentNodeDeleteCondition = delete(word,node,index+1);
+
+        if(curentNodeDeleteCondition){
+            current.children.remove(ch);
+            return current.children.size() == 0;
+        }
+        return false;
+    }
+
     /*
     recursive implementation of search
      */
+
 
     public void recursiveSearch(String word){
         int index = 0;
@@ -109,29 +134,7 @@ public class Trie {
         return delete(word,root,index);
     }
 
-    public boolean delete(String word,TrieNode current,int index){
-        if(index == word.length()){
-            if(!current.isEnd){
-                return false;
-            }
 
-            current.isEnd = false;
-            return current.children.size() == 0;
-        }
-        char ch = word.charAt(index);
-        TrieNode node = current.children.get(ch);
-        if(node==null){
-            return false;
-        }
-
-        boolean curentNodeDeleteCondition = delete(word,node,index+1);
-
-        if(curentNodeDeleteCondition){
-            current.children.remove(ch);
-            return current.children.size() == 0;
-        }
-        return false;
-    }
 
     public static void main(String args[]){
         Trie t = new Trie();
