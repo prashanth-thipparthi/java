@@ -359,6 +359,12 @@ class BT    {
             return (left != null) ? left : root;
         }
     }
+
+    public int heightOfBinaryTree(BTNode root){
+        if(root == null)
+            return 0;
+        return 1+Math.max(heightOfBinaryTree(root.left),heightOfBinaryTree(root.right));
+    }
 }
 
 /* Class binaryTree */
