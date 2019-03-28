@@ -1,4 +1,5 @@
-package Graph;
+package check;
+
 
 import java.util.ArrayList;
 import java.util.Collection;
