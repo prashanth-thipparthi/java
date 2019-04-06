@@ -1,5 +1,6 @@
 package BackTracking;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,18 +9,18 @@ import java.util.List;
 https://leetcode.com/problems/combination-sum/
  */
 
-public class CombinationSum {
+public class CombinationSumII {
 
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    public List<List<Integer>> combinationSumII(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(candidates);
         List<Integer> tempList = new ArrayList<>();
         int startIndex = 0;
-        combinationSumUtil(candidates,target,result,tempList,startIndex);
+        combinationSumIIUtil(candidates,target,result,tempList,startIndex);
         return  result;
     }
 
-    public void combinationSumUtil(int [] candidates,int target,List<List<Integer>> result,List<Integer> tempList
+    public void combinationSumIIUtil(int [] candidates,int target,List<List<Integer>> result,List<Integer> tempList
             ,int startIndex){
         if(target == 0){
             result.add(new ArrayList<>(tempList));
@@ -28,6 +29,10 @@ public class CombinationSum {
             return;
         }else{
             for(int i=startIndex;i<candidates.length;i++){
+
+                if(i > startIndex &&candidates[i]==candidates[i-1]){
+                    continue;
+                }
                 if(candidates[i]>target){
                     break;
                 }
@@ -35,13 +40,13 @@ public class CombinationSum {
 //                if(target < 0){
 //                    continue;
 //                }
-                combinationSumUtil(candidates,target-candidates[i],result,tempList,i);
+                combinationSumIIUtil(candidates,target-candidates[i],result,tempList,i+1);// If numbers are not repeating we start from next number i.e i+1
                 tempList.remove(tempList.size()-1);
             }
         }
     }
 
-//    public List<List<Integer>> combinationSum(int[] nums, int target) {
+//    public List<List<Integer>> combinationSumII(int[] nums, int target) {
 //        List<List<Integer>> list = new ArrayList<>();
 //        Arrays.sort(nums);
 //        backtrack(list, new ArrayList<>(), nums, target, 0);
@@ -65,10 +70,11 @@ public class CombinationSum {
         int[] candidates = {2,3,6,7};
         int target = 7;
 
-        CombinationSum cs = new CombinationSum();
-        List<List<Integer>> combinations = cs.combinationSum(candidates,target);
+        CombinationSumII cs = new CombinationSumII();
+        List<List<Integer>> combinations = cs.combinationSumII(candidates,target);
         for(List<Integer> combination:combinations){
             System.out.println(combination);
         }
     }
 }
+
