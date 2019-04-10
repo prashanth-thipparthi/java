@@ -8,6 +8,7 @@ class ListNode
     ListNode(int data)
     {
         this.val =data;
+        next = null;
     }
 }
 

@@ -16,8 +16,9 @@ public class ReverseWordsInString {
         }
 
         reverse(s, i, s.length-1);
+        // till here - reverse each word in the sentence
 
-        reverse(s, 0, s.length-1);
+        reverse(s, 0, s.length-1); // reverse the characters in entire sentence
     }
 
     public static void reverse(char[] s, int i, int j){
