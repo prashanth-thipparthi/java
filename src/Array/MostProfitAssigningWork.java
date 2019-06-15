@@ -1,6 +1,6 @@
 package Array;
 
-import javafx.util.Pair;
+/*import javafx.util.Pair;
 
 import java.util.*;
 
@@ -27,4 +27,4 @@ public class MostProfitAssigningWork {
 
         System.out.println("ans: "+ mpaw.maxProfitAssignment(difficulty,profit,worker));
     }
-}
+}*/

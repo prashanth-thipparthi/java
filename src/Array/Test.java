@@ -14,7 +14,7 @@ public class Test {
 //        Arrays.sort(a);
 //        int x = 00123;
 //        System.out.println("x: "+Math.abs(x));
-
+/*
         Set<Integer> lhs = new LinkedHashSet<>();
 
         lhs.add(1);
@@ -27,5 +27,23 @@ public class Test {
 
         lhs.remove(new Integer(1));
         System.out.println("element: "+lhs.iterator().next());
+        */
+        String s = "!@#$%^abcdefghijklmnopqrstuvwxyz";
+
+//        int c = '9' - '0';
+//        System.out.println("c: "+  c);
+
+        int ch[] = new int[128];
+//        for(int i=0; i<128; i++){
+//            ch[i] = 0;
+//        }
+
+        for(char c : s.toCharArray()){
+            ch[c]++;
+        }
+
+        for(int i=0; i<128; i++){
+            System.out.print(ch[i] + " ");
+        }
     }
 }

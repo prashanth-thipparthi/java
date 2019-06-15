@@ -5,7 +5,7 @@ https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-charac
 
 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
  */
-public class LongestSubStringWithAtMost2DistinctCars {
+public class LongestSubStringWithAtMost2DistinctChars {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
 
 
