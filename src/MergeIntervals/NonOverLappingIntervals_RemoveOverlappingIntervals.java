@@ -9,7 +9,7 @@ class myComparator implements Comparator<Interval> {
     }
 }
 
-public class NonOverLappingIntervals {
+public class NonOverLappingIntervals_RemoveOverlappingIntervals {
     public int eraseOverlapIntervals(Interval[] intervals) {
         if (intervals.length == 0)  return 0;
 
@@ -26,10 +26,10 @@ public class NonOverLappingIntervals {
         return intervals.length - count;
     }
     public static void main(String args[]){
-        NonOverLappingIntervals noi = new NonOverLappingIntervals();
+        NonOverLappingIntervals_RemoveOverlappingIntervals noi = new NonOverLappingIntervals_RemoveOverlappingIntervals();
         Interval i1 = new Interval();
         
-        noi.eraseOverlapIntervals()
+        //noi.eraseOverlapIntervals(i1);
     }
 }
 

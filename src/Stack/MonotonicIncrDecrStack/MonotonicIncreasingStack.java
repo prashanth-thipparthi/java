@@ -1,4 +1,4 @@
-package BasicDataStructures.stack.MonotonicIncrDecrStack;
+package Stack.MonotonicIncrDecrStack;
 
 
 import java.util.Stack;

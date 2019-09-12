@@ -5,7 +5,7 @@ import java.util.*;
 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
  */
 
-public class ConnectedComponentsUndirectedGraph {
+public class ConnectedComponentsUndirectedGraph1 {
     public int countComponents(int n, int[][] edges) {
 
         if(n == 0 || edges == null)

@@ -3,7 +3,7 @@ package Graph.Bfs;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class ShortestDistanceFromAllBuildings {
+public class ShortestDistanceFromAllBuildings_InitialThought {
     public int shortestDistance(int[][] grid) {
         if(grid == null || grid.length == 0)
             return 0;
@@ -67,7 +67,7 @@ public class ShortestDistanceFromAllBuildings {
     }
 
     public static void main(String args[]){
-        ShortestDistanceFromAllBuildings sdfb = new ShortestDistanceFromAllBuildings();
+        ShortestDistanceFromAllBuildings_InitialThought sdfb = new ShortestDistanceFromAllBuildings_InitialThought();
         int[][] area = new int[][]{{1,0,2,0,1},{0,0,0,0,0},{0,0,1,0,0}};
         System.out.println("dis : "+sdfb.shortestDistance(area));
     }
