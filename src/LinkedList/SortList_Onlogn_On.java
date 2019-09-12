@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class SortList {
+public class SortList_Onlogn_On {
     public ListNode sortList(ListNode head) {
         if(head == null)
             return null;

@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f6ad4eb-0773-41a9-8503-a301623b5542" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+    <list default="true" id="ca4da015-9fb4-41f3-947c-f9a612ca78f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Coding Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/DynamicProgramming/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/META-INF/Coding Practice.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/maximum_difference_sub_array.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/maximum_difference_sub_array.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/DynamicProgramming/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/maximum_difference_sub_array.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/maximum_difference_sub_array.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeIntervals/Interval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/BST_Successor_ParentGiven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BST_Successor_ParentGiven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingAlgorithms/META-INF/CodingAlgorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/META-INF/CodingAlgorithms.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Bfs/ShortestDistanceFromAllBuildings_InitialThought.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Bfs/ShortestDistanceFromAllBuildings_InitialThought.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/SubDomainVisitCount_On2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap/FindKPairsWithSmallestSum_InitialThought.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/SortList_Onlogn_On.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/SortList_Onlogn_On.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeIntervals/MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeIntervals/MeetingRoomsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeIntervals/NonOverLappingIntervals_RemoveOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeIntervals/NonOverLappingIntervals_RemoveOverlappingIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/ConnectedComponentsUndirectedGraph1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/dfs/ConnectedComponentsUndirectedGraph1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/PacificAtlanticWaterFlow_InitialThought.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/dfs/PacificAtlanticWaterFlow_InitialThought.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/Robot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/RobotCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/dfs/RobotCleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicIncrDecrStack/MonotonicIncreasingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicIncrDecrStack/MonotonicIncreasingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/LongestRepeatingCharacterReplacement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/LongestRepeatingCharacterReplacement_InitialThought.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/greedy/Candy.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +38,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="1Q5IthaXvWQoCBysyXpDa3XDMrK" />
+  <component name="ProjectId" id="1QiRn9J2xrFoKUtZDYHlnmOYr8d" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Array/AdditiveNumber.java" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -41,16 +57,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="TwoSum" type="Java Scratch" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.TwoSum" />
+      <module name="Coding Practice" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Array/AdditiveNumber.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5f6ad4eb-0773-41a9-8503-a301623b5542" name="Default Changelist" comment="" />
-      <created>1567054246999</created>
+      <changelist id="ca4da015-9fb4-41f3-947c-f9a612ca78f4" name="Default Changelist" comment="" />
+      <created>1568251594502</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567054246999</updated>
+      <updated>1568251594502</updated>
     </task>
     <servers />
   </component>
