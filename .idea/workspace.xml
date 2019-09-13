@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4da015-9fb4-41f3-947c-f9a612ca78f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/DynamicProgramming/resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/META-INF/Coding Practice.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/maximum_difference_sub_array.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Coding Practice/maximum_difference_sub_array.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/DynamicProgramming/resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/maximum_difference_sub_array.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/maximum_difference_sub_array.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeIntervals/Interval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Bfs/TreasureIslandi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingAlgorithms/META-INF/CodingAlgorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingAlgorithms/META-INF/CodingAlgorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Bfs/ShortestDistanceFromAllBuildings_InitialThought.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Bfs/ShortestDistanceFromAllBuildings_InitialThought.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashTable/SubDomainVisitCount_On2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heap/FindKPairsWithSmallestSum_InitialThought.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/SortList_Onlogn_On.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/SortList_Onlogn_On.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeIntervals/MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeIntervals/MeetingRoomsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeIntervals/NonOverLappingIntervals_RemoveOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeIntervals/NonOverLappingIntervals_RemoveOverlappingIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/ConnectedComponentsUndirectedGraph1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/dfs/ConnectedComponentsUndirectedGraph1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/PacificAtlanticWaterFlow_InitialThought.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/dfs/PacificAtlanticWaterFlow_InitialThought.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/RobotCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching/dfs/RobotCleaner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicIncrDecrStack/MonotonicIncreasingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MonotonicIncrDecrStack/MonotonicIncreasingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/LongestRepeatingCharacterReplacement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/LongestRepeatingCharacterReplacement_InitialThought.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/greedy/Candy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointers/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/MergeSortedArrays.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +12,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QiRn9J2xrFoKUtZDYHlnmOYr8d" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Array/AdditiveNumber.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Graph/Bfs/TreasureIslandi.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,10 +39,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TwoSum" type="Java Scratch" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.TwoSum" />
+    <configuration type="Java Scratch">
+      <option name="MAIN_CLASS_NAME" value="Graph.Bfs.TreasureIslandi" />
       <module name="Coding Practice" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Array/AdditiveNumber.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Graph/Bfs/TreasureIslandi.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
