@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4da015-9fb4-41f3-947c-f9a612ca78f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/MinCostToConnectAllNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Dfs/DfsDiscoveryFinishTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +23,7 @@
   </component>
   <component name="ProjectId" id="1QiRn9J2xrFoKUtZDYHlnmOYr8d" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/UnionFind/MinCostToConnectAllNodes.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Graph/Dfs/DfsDiscoveryFinishTime.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,9 +47,9 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.MinCostToConnectAllNodes" />
+      <option name="MAIN_CLASS_NAME" value="Graph.Dfs.DfsDiscoveryFinishTime" />
       <module name="Coding Practice" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/UnionFind/MinCostToConnectAllNodes.java" />
+      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Graph/Dfs/DfsDiscoveryFinishTime.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
