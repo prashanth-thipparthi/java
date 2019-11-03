@@ -1,4 +1,4 @@
-package BasicDataStructures.stack;
+package Stack;
 
 class stackDataStructure {
     int top = -1;
