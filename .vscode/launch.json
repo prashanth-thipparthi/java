@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchInSortedArray",
+            "request": "launch",
+            "mainClass": "Searching.binarysearch.SearchInSortedArray"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Array.Test"
+        }
+    ]
+}

@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca4da015-9fb4-41f3-947c-f9a612ca78f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Dfs/ArticulationPoints.java" afterDir="false" />
+    <list default="true" id="44acc2d2-82b2-4358-850b-e1fc70476241" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding Practice/META-INF/Coding Practice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding Practice/maximum_difference_sub_array.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding Practice/maximum_difference_sub_array.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingAlgorithms/DynamicProgramming/resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingAlgorithms/META-INF/CodingAlgorithms.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingAlgorithms/maximum_difference_sub_array.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingAlgorithms/maximum_difference_sub_array.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignQuestions/InsertionDeletionGetRandom_O1_withDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/UniquePaths_DFS_BFS_InitialThought.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Bfs/ShortestDistanceFromAllBuildings_InitialThought.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeIntervals/MaximumNumberOfIntervalsThatAreNonOverLapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeIntervals/NonOverLappingIntervals_RemoveOverlappingIntervals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching/dfs/PacificAtlanticWaterFlow_InitialThought.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicIncrDecrStack/LargestRectangleInHistogram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicIncrDecrStack/MonotonicIncreasingStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MonotonicIncrDecrStack/PreviousGreaterElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/LongestSubStringWithAtMost2DistinctChars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/LongestSubStringWithAtMostKDistinctChars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/LongestSubStringWithoutRepeatingChars.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +31,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1QiRn9J2xrFoKUtZDYHlnmOYr8d" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java" />
-  </component>
+  <component name="ProjectId" id="1SwuO17HZnZpjRVMcyycyVzPJw2" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -38,37 +47,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Java Scratch.CoinChange">
-    <configuration type="Java Scratch">
-      <option name="MAIN_CLASS_NAME" value="Graph.Bfs.TreasureIslandi" />
-      <module name="Coding Practice" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/Graph/Bfs/TreasureIslandi.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoinChange" type="Java Scratch" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.CoinChange" />
-      <module name="Coding Practice" />
-      <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Java Scratch.CoinChange" />
-    </list>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca4da015-9fb4-41f3-947c-f9a612ca78f4" name="Default Changelist" comment="" />
-      <created>1568251594502</created>
+      <changelist id="44acc2d2-82b2-4358-850b-e1fc70476241" name="Default Changelist" comment="" />
+      <created>1572486944116</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568251594502</updated>
+      <updated>1572486944116</updated>
     </task>
     <servers />
   </component>
@@ -77,38 +65,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graph/Dfs/DfsDiscoveryFinishTime.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graph/Dfs/DfsDiscoveryFinishTime.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Graph/Dfs/ArticulationPoints.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DynamicProgramming/CoinChange.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
