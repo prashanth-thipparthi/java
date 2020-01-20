@@ -5,6 +5,12 @@ package Trees;
 
 import java.util.*;
 
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
 public class DeleteNodeBST {
     public int successor(TreeNode root) {
         

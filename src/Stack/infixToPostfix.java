@@ -1,4 +1,4 @@
-package BasicDataStructures.stack;
+package Stack;
 
 
 public class infixToPostfix {

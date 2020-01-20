@@ -1,4 +1,4 @@
-package Heap;
+package Graph.EulerianGraph;
 
 import java.util.*;
 

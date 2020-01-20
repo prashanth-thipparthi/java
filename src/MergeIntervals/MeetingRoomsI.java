@@ -1,4 +1,4 @@
-package sortingAlgorithms;
+package MergeIntervals;
 
 import java.util.Arrays;
 import java.util.Comparator;

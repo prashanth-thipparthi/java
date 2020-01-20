@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AdditiveNumber",
+            "request": "launch",
+            "mainClass": "Array.AdditiveNumber",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SearchInSortedArray",
             "request": "launch",
             "mainClass": "Searching.binarysearch.SearchInSortedArray"
