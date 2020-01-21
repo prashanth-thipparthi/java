@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Subsets",
+            "request": "launch",
+            "mainClass": "BackTracking.Subsets",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CombinationSum",
+            "request": "launch",
+            "mainClass": "BackTracking.CombinationSum",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AdditiveNumber",
             "request": "launch",
             "mainClass": "Array.AdditiveNumber",
