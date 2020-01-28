@@ -1,5 +1,7 @@
 package DynamicProgramming;
 
+import java.util.Arrays;
+
 public class PerfectSquares {
 
     public int squares(int n){
@@ -37,6 +39,31 @@ public class PerfectSquares {
                 res =  Math.min(res, 1+getMinSquares(n - temp));
         }
         return res;
+    }
+
+    /*Dyanmic Programming*/
+    public int numSquares(int n) {
+        int squareRoot = (int)Math.sqrt(n); 
+        int perfectSquares[] = new int[squareRoot];
+        int dp[] = new int[n+1];
+        
+        Arrays.fill(dp,n+1);
+        for(int i=1; i<=squareRoot; i++) {
+            perfectSquares[i-1] = i*i;
+        }
+        
+        dp[0] = 0;
+        
+        for(int i=1; i<=n; i++) {
+            for(int square : perfectSquares)  {
+                if(square > i) {
+                    break;
+                }else{
+                    dp[i] = Math.min(dp[Math.max(0,i-square)]+1, dp[i]);
+                }
+            }   
+        }
+        return dp[n];
     }
 
     public static void main(String args[]){
