@@ -30,7 +30,7 @@ public class SubArraySumLessThanOrEqualsK {
             } 
     
             // keep track of max length. 
-            maxcnt = max(cnt, maxcnt);  
+            maxcnt = Math.max(cnt, maxcnt);  
         } 
         return maxcnt; 
     } 

@@ -1,6 +1,9 @@
 package Array;
 
+import java.util.*;
+
 public class HappyNumber {
+
     public boolean isHappy(int n) {
         int copy = n;
         Set<Integer> hset = new HashSet<Integer>();
@@ -24,5 +27,6 @@ public class HappyNumber {
             hset.add(sum);
             n = sum;
         }
+    }
     
 }
