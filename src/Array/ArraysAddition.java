@@ -4,7 +4,7 @@ package Array;
  */
 public class ArraysAddition {
 
-    public static int [] addArrays(int arr1[], int arr2[]){
+    public int [] addArrays(int arr1[], int arr2[]){
         int l = Math.max(arr1.length,arr2.length);
         int result[] = new int[l];
         int i = arr1.length-1;

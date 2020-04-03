@@ -1,7 +1,5 @@
 package UnionFind;
 
-import MergeIntervals.Interval;
-
 import java.util.Arrays;
 
 public class MinCostToConnectAllNodes {

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReverseWordsInString",
+            "request": "launch",
+            "mainClass": "Strings.ReverseWordsInString",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JumpGame",
             "request": "launch",
             "mainClass": "DynamicProgramming.JumpGame",
