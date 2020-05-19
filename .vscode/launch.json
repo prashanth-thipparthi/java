@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - OptimalUtilisation",
+            "request": "launch",
+            "mainClass": "TwoPointers.OptimalUtilisation",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TopKFrequentlyMentionedKeywords",
             "request": "launch",
             "mainClass": "Heap.TopKFrequentlyMentionedKeywords",

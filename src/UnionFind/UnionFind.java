@@ -16,7 +16,7 @@ public class UnionFind {
 
     public UnionFind(int size){
         if(size <= 0){
-            throw new IllegalArgumentException("size <= is not allowed. ");
+            throw new IllegalArgumentException("size <=0 is not allowed. ");
         }
 
         this.size = size;

@@ -36,7 +36,7 @@ public class ZombieInAMatrix {
                     if(x<0 || y<0 || x >= rows || y >= columns || grid.get(x).get(y) == 1){
                         continue;
                     }
-                    grid.get(x).get(y) = 1;
+                    grid.get(x).set(y,1);
                     bfs.offer(new int[]{x,y});
                 }
             }
