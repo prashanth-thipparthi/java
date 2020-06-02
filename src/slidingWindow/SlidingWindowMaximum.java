@@ -5,34 +5,33 @@ import java.util.Deque;
 
 public class SlidingWindowMaximum {
 
-    public int[] maxSlidingWindow(int[] a, int k) {
-        if (a == null || k <= 0) {
-            return new int[0];
-        }
-        int n = a.length;
-        int[] r = new int[n-k+1];
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int len = nums.length;
+        if(len == 0 || k==1) {
+            return nums;
+        }   
+        
+        int[] res = new int[len-k+1];
         int ri = 0;
-        // store index
-        Deque<Integer> q = new ArrayDeque<>();
-        for (int i = 0; i < a.length; i++) {
-            // remove numbers out of range k
-           // int d = q.peek();
-            while (!q.isEmpty() && q.peek() < i - k + 1) {
-                q.poll();
+        Deque<Integer> deq = new ArrayDeque<Integer>();
+        
+        for(int j=0; j<len; j++) {
+            /*remove the elements from front if elements are not in the sliding window */
+            while(!deq.isEmpty() && deq.peek() < j-k+1 ) {
+                deq.poll();
+            } 
+            
+            /*pop elements less than the current element as we have the maximum element in the window*/
+            while(!deq.isEmpty() && nums[deq.peekLast()] < nums[j]) {
+                deq.pollLast();
             }
-            // remove smaller numbers in k range as they are useless
-            //int l = q.peekLast();
-            while (!q.isEmpty() && a[q.peekLast()] < a[i]) {
-                q.pollLast();
-            }
-            // q contains index... r contains content
-            q.offer(i);
-            if (i >= k - 1) {
-                int p = q.peek();
-                r[ri++] = a[q.peek()];
+            
+            deq.offer(j);
+            if(j > k-2) {
+                res[ri++] = nums[deq.peek()];
             }
         }
-        return r;
+        return res;
     }
 
     public static void main(String args[]){
