@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SearchSuggestions",
+            "request": "launch",
+            "mainClass": "Trees.SearchSuggestions",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArticulationPoints",
+            "request": "launch",
+            "mainClass": "Graph.Dfs.ArticulationPoints",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CriticalRouters",
+            "request": "launch",
+            "mainClass": "Graph.Dfs.CriticalRouters",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BFS_DFS_Template",
             "request": "launch",
             "mainClass": "Graph.Dfs.BFS_DFS_Template",

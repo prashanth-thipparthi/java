@@ -18,7 +18,7 @@ public class TopKFrequentlyMentionedKeywords {
         }
         Map<String,Integer> hmap = new HashMap<>();
         for(String review : reviews) {
-            String[] reviewWords = review.split(" ");
+            String[] reviewWords = review.split("\\W");
             Set<String> hashSet = new HashSet<String>();
             for(String word:reviewWords){
                 hashSet.add(word.toLowerCase());

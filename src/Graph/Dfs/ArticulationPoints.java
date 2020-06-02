@@ -123,14 +123,14 @@ public class ArticulationPoints {
         {
             // Create graphs given in above diagrams
             System.out.println("Articulation points in first graph ");
-            ArticulationPoints g1 = new ArticulationPoints(6);
+            ArticulationPoints g1 = new ArticulationPoints(7);
             g1.addEdge(0, 1);
             g1.addEdge(0, 2);
             g1.addEdge(1, 3);
             g1.addEdge(2, 3);
+            g1.addEdge(2, 5);
+            g1.addEdge(5, 6);
             g1.addEdge(3, 4);
-            g1.addEdge(3, 5);
-            g1.addEdge(4, 5);
             g1.AP();
             System.out.println();
 
