@@ -1,6 +1,7 @@
 package TopologicalSort;
 
 import java.util.*;
+
 public class CourseSchedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<Integer> adjMatrix[] = new LinkedList[numCourses];
