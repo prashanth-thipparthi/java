@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BuySellStock",
+            "request": "launch",
+            "mainClass": "DynamicProgramming.BuySellStock",
+            "projectName": "java_306bdcd4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SearchSuggestions",
             "request": "launch",
             "mainClass": "Trees.SearchSuggestions",
